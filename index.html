@@ -1,0 +1,405 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!--jquery cdn-->
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+    <!--jquery connection to this page link-->
+    <script src="jquery.js"></script>
+    <!--scroll animation link-->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css"/>
+    <!--css link-->
+    <link rel="stylesheet" href="style.css">
+    <!--font awesome link-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!--bootstrap link-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</head>
+<body>
+ <!--NAVBAR STARTED-->
+ <nav class="navbar navbar-expand-lg navbar-light fixed-top">
+        <a class="navbar-brand" href="#"><b>Hexstock</b></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+                <a class="home nav-link"  href="#home"><b>Home</b></a>
+                 </li>
+              <li class="nav-item">
+                <a class="trending nav-link" class="trending" href="#trending"><b>Shop</b></a>
+              </li>
+              <li class="nav-item">
+                <a class=" add nav-link" class="add" href="#add"><b>Blog</b></a>
+              </li>
+              <li class="nav-item">
+                <a class="sale nav-link" class="sale" href="#sale"><b>Pages</b></a>
+              </li>
+              <li class="nav-item">
+                <a class="footer nav-link" class="footer" href="#footer"><b>Contact</b></a>
+              </li>
+              <div class="icon1">
+                <i class="fa-solid fa-magnifying-glass"></i><h6>search</h6>
+              </div>
+              <div class="icon2">
+                <i class="fa-solid fa-bag-shopping"></i><h6> cart</h6>
+              </div>
+          </ul>
+        </div>
+      </nav>
+<!--NAVBAR COMPLETED-->
+
+ <!--HOME PAGE STARTED-->
+<div id="home">
+    <div class="container" data-aos="zoom-in" data-aos-delay="400" data-aos-duration="400" data-aos-easing="ease-in-out">
+        <div class="row">
+            <div class="firstpart col-sm-6" data-aos="zoom-in" data-aos-duration="600" data-aos-delay="700" data-aos-easing="ease-in-out">
+                <h1>Think Different &<br>Do it otherwise</h1>
+                <h6>claritas est etiem <span>processes dynamicus, qui sequitur</span> mutationeum <span>consuetitum lectorum</span></h6>
+            </div>
+            <div class="secondpart col-sm-6">
+            
+            </div>
+            <div class="homebtn" data-aos="zoom-in" data-aos-duration="600" data-aos-delay="700" data-aos-easing="ease-in-out">
+                <button><a href="#"><b>DISCOVER NOW</b></a></button>
+            </div>
+        </div>
+    </div>
+</div>
+      <!--HOME PAGE COMPLETED-->
+ <!--scroll animation-->
+ <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+ <script>
+   AOS.init();
+ </script>
+ <!--scroll animation ended-->
+      <!--SAMPLE PRODUCTS STARTED-->
+<div id="sample">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-4" data-aos="zoom-in" data-aos-duration="700" data-aos-delay="700" data-aos-easing="ease-in-out">
+                <div class="card">
+                    <h4>sunflower clock<br>quartz hands</h4>
+                    <a href="#" class="sample1">Discover Now</a>
+                    <img src="image2.jpg" class="saimg1">
+                </div>
+                </div>
+                <div class="col-sm-4" data-aos="zoom-in" data-aos-duration="800" data-aos-delay="800" data-aos-easing="ease-in-out">
+                <div class="card">
+                    <h4>Wooden chair<br>In high quality</h4>
+                    <a href="#" class="sample2">Discover Now</a>
+                    <img src="image3.jpg" class="saimg2">
+                </div>
+            </div>
+            <div class="col-sm-4" data-aos="zoom-in" data-aos-duration="900" data-aos-delay="900" data-aos-easing="ease-in-out">
+                <div class="card">
+                    <h4>Sweeper and <br>Dustpin</h4>
+                    <a href="#" class="sample3">Discover Now</a>
+                    <img src="image4.jpg" class="saimg3">
+                </div>
+            </div>
+            </div>
+        </div>
+    </div>
+</div>
+ <!--SAMPLE PRODUCTS COMPLETED-->
+
+<!--TRENDING PRODUCTS STARTED-->
+<div id="trending">
+    <div class="container">
+        <h2>Trending Products</h2>
+        <p>Here you can get all the trending products with best prices.</p>
+        <div class="firstrow row">
+            <div class="col-sm-3" data-aos="zoom-in" data-aos-duration="700" data-aos-delay="700" data-aos-easing="ease-in-out">
+                <div class="card">
+                    <img src="image5.jpg" class="trendimg1">
+                    <h5>Wooden container bowl</h5>
+                    <h6><ins><b>$96.00</b></ins>    <del>$98.00</del></h6>
+             
+                </div>
+            </div>
+            <div class="col-sm-3" data-aos="zoom-in" data-aos-duration="800" data-aos-delay="800" data-aos-easing="ease-in-out">
+                <div class="card">
+                    <img src="image6.jpg" class="trendimg2">
+                    <h5>Wooden container bowl</h5>
+                    <h6><ins><b>$96.00</b></ins>    <del>$98.00</del></h6>
+                </div>
+            </div>
+            <div class="col-sm-3" data-aos="zoom-in" data-aos-duration="900" data-aos-delay="900" data-aos-easing="ease-in-out">
+                <div class="card">
+                    <img src="image7.jpg" class="trendimg3">
+                    <h5>Wooden container bowl</h5>
+                    <h6><ins><b>$96.00</b></ins>    <del>$98.00</del></h6>
+                </div>
+            </div>
+            <div class="col-sm-3" data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="1000" data-aos-easing="ease-in-out">
+                <div class="card">
+                    <img src="image8.jpg" class="trendimg4">
+                    <h5>Wooden container bowl</h5>
+                    <h6><ins><b>$96.00</b></ins>    <del>$98.00</del></h6>
+                </div>
+            </div>
+        </div>
+        <div class="secondrow row">
+            <div class="col-sm-3" data-aos="zoom-in" data-aos-duration="700" data-aos-delay="700" data-aos-easing="ease-in-out">
+                <div class="card">
+                    <img src="image9.jpg" class="trendimg5">
+                    <h5>Wooden container bowl</h5>
+                    <h6><ins><b>$96.00</b></ins>    <del>$98.00</del></h6>
+                </div>
+            </div>
+            <div class="col-sm-3" data-aos="zoom-in" data-aos-duration="800" data-aos-delay="800" data-aos-easing="ease-in-out">
+                <div class="card">
+                    <img src="image10.jpg" class="trendimg6">
+                    <h5>Wooden container bowl</h5>
+                    <h6><ins><b>$96.00</b></ins>    <del>$98.00</del></h6>
+                </div>
+            </div>
+            <div class="col-sm-3" data-aos="zoom-in" data-aos-duration="900" data-aos-delay="900" data-aos-easing="ease-in-out">
+                <div class="card">
+                    <img src="image11.jpg" class="trendimg7">
+                    <h5>Wooden container bowl</h5>
+                    <h6><ins><b>$96.00</b></ins>    <del>$98.00</del></h6>
+                </div>
+            </div>
+            <div class="col-sm-3" data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="1000" data-aos-easing="ease-in-out">
+                <div class="card">
+                  
+                    <img src="image12.jpg" class="trendimg8">
+                    <h5>Wooden container bowl</h5>
+                    <h6><ins><b>$96.00</b></ins>    <del>$98.00</del></h6>
+                </div>
+            </div>
+        </div>
+        <div class="trendbtn">
+            <button><a href="#"><b>KNOW MORE</b></a></button>
+        </div>
+    </div>
+</div>
+ <!--TRENDING PRODUCTS COMPLETED-->
+
+
+<!--ADDITIONAL PRODUCTS STARTED-->
+<div id="add">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="firstpart col-sm-6 " data-aos="zoom-in" data-aos-duration="600" data-aos-delay="600" data-aos-easing="ease-in-out">
+                   <h6>Product Essentials</h6>
+                    <h5>Bottle with wooden cork</h5>
+                    <p>This bottle manufacutured with high standard materials.And developed with well experienced workers.</p>
+                    <div class="addbtn1">
+                        <button><a href="#">BUY NOW / <span> $59.25</span> </a></button>
+                    </div>
+        </div>
+                <div class="secondpart col-sm-6 " data-aos="zoom-in" data-aos-duration="600" data-aos-delay="600" data-aos-easing="ease-in-out">
+ <h6>Product Furnitures</h6>
+                    <h5>Hautile plywood chair</h5>
+                    <p>This bottle manufacutured with high standard materials.And developed with well experienced workers.</p>
+                    <div class="addbtn2">
+                        <button><a href="#">BUY NOW / <span> $59.25</span> </a></button>
+                    </div>
+                </div>            </div>
+        </div>
+    </div> 
+<!--ADDITIONAL PRODUCTS COMPLETED-->
+
+<!--SALE OFF STARTED-->
+<div id="sale">
+    <h2>Sale Off</h2>
+        <h5>We planned to give a offer for our customer in upcoming weeks.</h5>
+    <div class="container">
+      <div class="salecard row">
+           <div class="col-sm-1">
+ </div>
+            <div class="card1 col-sm-2" data-aos="zoom-in" data-aos-delay="600" data-aos-duration="600" data-aos-easing="ease-in-out">
+                <div class="card">
+<img src="image5.jpg">
+<h6>Wooden Container Bowl</h6>
+<p><ins><b>$96.00</b></ins> <del>$99.00</del></p>
+                </div>
+            </div>
+            <div class="card2 col-sm-2" data-aos="zoom-in" data-aos-delay="700" data-aos-duration="700" data-aos-easing="ease-in-out">
+                <div class="card">
+<img src="image6.jpg">
+<h6>Wooden Container Bowl</h6>
+<p><ins><b>$96.00</b></ins> <del>$99.00</del></p>
+                </div>
+            </div>
+            <div class="card3 col-sm-2" data-aos="zoom-in" data-aos-delay="800" data-aos-duration="800" data-aos-easing="ease-in-out">
+                <div class="card">
+<img src="image7.jpg">
+<h6>Wooden Container Bowl</h6>
+<p><ins><b>$96.00</b></ins> <del>$99.00</del></p>
+                </div>
+            </div>
+            <div class="card4 col-sm-2" data-aos="zoom-in" data-aos-delay="900" data-aos-duration="900" data-aos-easing="ease-in-out">
+                <div class="card">
+<img src="image8.jpg">
+<h6>Wooden Container Bowl</h6>
+<p><ins><b>$96.00</b></ins> <del>$99.00</del></p>
+                </div>
+            </div>
+            <div class="card5 col-sm-2" data-aos="zoom-in" data-aos-delay="1000" data-aos-duration="1000" data-aos-easing="ease-in-out">
+                <div class="card">
+<img src="image9.jpg">
+<h6>Wooden Container Bowl</h6>
+<p><ins><b>$96.00</b></ins> <del>$99.00</del></p>
+                </div>
+            </div>
+            <div class="col-sm-1"> </div>
+        </div>
+    </div>
+</div>
+<!--SALE OF COMPLETED-->
+
+<!--BRANDS STARTED-->
+<div id="brands">
+    <div class="container">
+   <div class="image1" data-aos="zoom-in" data-aos-delay="500" data-aos-duration="500" data-aos-easing="ease-in-out">
+            <img src="logo1.jpg">
+        </div>
+        <div class="image2" data-aos="zoom-in" data-aos-delay="600" data-aos-duration="600" data-aos-easing="ease-in-out">
+            <img src="logo2.jpg">
+        </div>
+        <div class="image3" data-aos="zoom-in" data-aos-delay="700" data-aos-duration="700" data-aos-easing="ease-in-out">
+            <img src="logo3.jpg">
+        </div>
+        <div class="image4" data-aos="zoom-in" data-aos-delay="800" data-aos-duration="800" data-aos-easing="ease-in-out">
+            <img src="logo4.jpg">
+        </div>
+        <div class="image5" data-aos="zoom-in" data-aos-delay="900" data-aos-duration="900" data-aos-easing="ease-in-out">
+            <img src="logo5.jpg">
+ </div>
+    </div>
+</div>
+<hr class="hori1">
+<!--BRANDS COMPLETED-->
+
+<!--BLOG STARTED-->
+<div id="blog">
+    <h1>Our Blog Posts</h1>
+    <h3>Our blogs are about the products what we manufactured.</h3>
+    <div class="container">
+        <div class="cards row">
+            <div class="col-sm-4" data-aos="zoom-in" data-aos-delay="500" data-aos-duration="500" data-aos-easing="ease-in-out">
+                <div class="card">
+                    <img src="image15.jpg">
+                    <h4>Anteposuerit litterum formas.</h4>
+                    <h5>By <span>Shanawas sahil</span>/ september 14, 2017.</h5>
+                    <p>This is used to do something with this products.which is very useful.</p>
+                    <div class="blogbtn1">
+                        <button><a href="#">KNOW MORE <i class="fa-solid fa-arrow-right"></i></a></button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-4" data-aos="zoom-in" data-aos-delay="500" data-aos-duration="500" data-aos-easing="ease-in-out">
+                <div class="card">
+                    <img src="image16.jpg">
+                    <h4>Anteposuerit litterum formas.</h4>
+                    <h5>By <span>Shanawas sahil</span>/ september 14, 2017.</h5>
+                    <p>This is used to do something with this products.which is very useful.</p>
+                    <div class="blogbtn2">
+                        <button><a href="#">KNOW MORE <i class="fa-solid fa-arrow-right"></i></a></button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-4" data-aos="zoom-in" data-aos-delay="500" data-aos-duration="500" data-aos-easing="ease-in-out">
+                <div class="card">
+                    <img src="image17.jpg">
+                    <h4>Anteposuerit litterum formas.</h4>
+                    <h5>By <span>Shanawas sahil</span>/ september 14, 2017.</h5>
+                    <p>This is used to do something with this products.which is very useful.</p>
+                    <div class="blogbtn3">
+                        <button><a href="#">KNOW MORE <i class="fa-solid fa-arrow-right"></i></a></button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<hr class="hori2">
+<!--BLOG COMPLETED-->
+
+<!--NOTIFICATION STARTED-->
+<div id="notify">
+    <h1>Get Discount Info</h1>
+    <p>Subscribe to the Hexstack mailing list to receive updates on new arrivals, special offers and other discount information.</p>
+    <h5>Subscribe to our Newsletter</h5>
+    <hr class="hori3">
+    <div class="notibtn">
+        <button><a href="#">SUBSCRIBE</a></button>
+    </div>
+</div>
+<!--NOTIFICATION COMPLETED-->
+
+
+<!--FOOTER STARTED-->
+<div id="footer">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-1"> </div>
+<div class="firstpart col-sm-4" data-aos="zoom-in" data-aos-duration="600" data-aos-delay="600" data-aos-easing="ease-in-out">
+<h3>Hexstock</h3>
+<h6>We are the leading seller in the current market of introducing innovative goods.</h6>
+<div class="firstone">
+    <i class="fa-solid fa-location-dot"></i><a href="#">1234, Heaven Street, Melbourne , USA.</a>
+</div>
+<div class="secondone">
+    <i class="fa-regular fa-envelope"></i><a href="mailto@someonesekar01@gmail.com">hexstock@gmail.com</a>
+</div>
+<div class="thirdone">
+    <i class="fa-solid fa-phone"></i><a href="tel:+91-8765642343">+91-8765642343</a>
+</div>
+</div>
+<div class="secondpart col-sm-3" data-aos="zoom-in" data-aos-duration="700" data-aos-delay="700" data-aos-easing="ease-in-out">
+    <h4>Information</h4>
+<ul>
+    <li><a href="#">About us</a></li>
+    <li><a href="#">Careers</a></li>
+    <li><a href="#">Delivery Information</a></li>
+    <li><a href="#">Privacy Policy</a></li>
+    <li><a href="#">Terms & Condition</a></li>
+</ul>
+</div>
+<div class="thirdpart col-sm-3" data-aos="zoom-in" data-aos-duration="800" data-aos-delay="800" data-aos-easing="ease-in-out">
+<h4>Customer service</h4>
+<ul>
+    <li><a href="#">Shipping Policy</a></li>
+    <li><a href="#">Help & Contact Us</a></li>
+    <li><a href="#">Returns & Refunds</a></li>
+    <li><a href="#">Online Stores</a></li>
+    <li><a href="#">Terms & conditions</a></li>
+</ul>
+</div>
+ <div class="col-sm-1"></div>
+        </div>
+    </div>
+    <hr class="hori4">
+    <div id="finalfooter">
+        <div class="container">
+            <div class="row">
+                <div class="head col-sm-6">
+                   <h4> copyrights <span><i class="fa-regular fa-copyright"></i> Hexstack</span> all rights reserved. Powered by <span>Hexwhale</span>
+                   </h4>   </div>
+                <div class=" icon col-sm-6">
+                    <i class="fa-solid fa-globe"></i>
+                    <i class="fa-brands fa-facebook"></i>
+                    <i class="fa-brands fa-twitter"></i>
+                    <i class="fa-brands fa-behance"></i>
+                    <i class="fa-solid fa-share-nodes"></i>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!--FOOTER COMPLETED-->
+
+   
+</body>
+</html>
